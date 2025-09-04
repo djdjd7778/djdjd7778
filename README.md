@@ -1,20 +1,23 @@
 ## Hi there 👋
 
 
-local name = "djdjd7778"
-local age = nil
-local hobby = "睡眠"
-local favorite_food = "フルーツ"
-local city = "japan"
+```lua
 
+local name = "djdjd7778(by チーパー君)"
+local age = "非公開"
+local hobbies = {"睡眠"}
+local favorite_food = {"ラーメン"}
+local location = "東京"
+local skills = {"Lua"}
 
+-- 自己紹介関数
 local function introduce()
-    print("こんにちは！私の名前は " .. name .. " です。")
-    print("年齢は " .. age .. " 歳です。")
-    print("趣味は " .. hobby .. " です。")
-    print("好きな食べ物は " .. favorite_food .. " です。")
-    print("私は " .. city .. " に住んでいます。")
+    print("名前: " .. name)
+    print("年齢: " .. age)
+    print("趣味: " .. table.concat(hobbies, ", "))
+    print("好きな食べ物: " .. table.concat(favorite_food, ", "))
+    print("住んでいる場所: " .. location)
+    print("スキル: " .. table.concat(skills, ", "))
 end
-
 
 introduce()

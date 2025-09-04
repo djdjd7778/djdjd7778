@@ -6,8 +6,8 @@
 local name = "djdjd7778(by チーパー君)"
 local age = "非公開"
 local hobbies = {"睡眠"}
-local favorite_food = {"ラーメン"}
-local location = "東京"
+local favorite_food = {"ラーメン,"パフェ","アイス"}
+local location = "日本"
 local skills = {"Lua"}
 
 -- 自己紹介関数

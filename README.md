@@ -1,6 +1,6 @@
 ## Hi there 👋
 
--- 自己紹介の情報
+
 local name = "djdjd7778"
 local age = nil
 local hobby = "睡眠"
